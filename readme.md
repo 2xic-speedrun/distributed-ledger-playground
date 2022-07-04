@@ -9,3 +9,6 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 - [Rai](https://raw.githubusercontent.com/reflexer-labs/whitepapers/master/English/rai-english.pdf)
 - [Curve](https://curve.fi/files/crypto-pools-paper.pdf)
 - [Aave](https://raw.githubusercontent.com/aave/aave-protocol/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf).
+- [SNX Atomic Exchange](https://sips.synthetix.io/sips/sip-120/)
+- [Uniswap v2-v3](https://uniswap.org/whitepaper.pdf)
+- 
