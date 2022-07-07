@@ -6,6 +6,7 @@
 - [ ] Create toy model in rust
 
 ## Technical
+[ ] [https://curve.fi/files/stableswap-paper.pdf](https://curve.fi/files/stableswap-paper.pdf)
 [ ] [https://xord.com/research/curve-stableswap-a-comprehensive-mathematical-guide/](https://xord.com/research/curve-stableswap-a-comprehensive-mathematical-guide/)
 [ ] [https://alvarofeito.com/articles/curve/](https://alvarofeito.com/articles/curve/)
     - This was quite good.
@@ -15,5 +16,6 @@
 
 ## Code
 - [https://github.com/curvefi](https://github.com/curvefi)
-
+- [https://etherscan.io/address/0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7#code](https://etherscan.io/address/0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7#code)
+  - Deployed smart contract for DAI/USDC/USDT Pool
 
