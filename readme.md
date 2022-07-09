@@ -31,8 +31,13 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 
 ### Options
 - [https://www.opyn.co/](https://www.opyn.co/)
+- [https://perp.com/](https://perp.com/)
+
+### MEV
+- we will also investigate how MEV can affect some of theses dapps. https://www.mev.wiki/
 
 ---
 There are also ideas closely connected to DeFi worth creating simulators for. For instance seigniorage shares is something used by successfully for some stablecoins, and less so for others.
 
 [Seigniorage Shares](https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf)
+
