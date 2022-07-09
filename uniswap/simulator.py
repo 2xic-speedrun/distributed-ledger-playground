@@ -21,18 +21,24 @@ class UniswapPair:
         alpha = amountIn / self.reserve0
 
         new_reserve0 = self.reserve0 + amountIn 
-        new_reserve1 = self.reserve1 - self.reserve1 * (alpha / (1 + alpha))
+        out = self.reserve1 * (alpha / (1 + alpha))
+        new_reserve1 = self.reserve1 - out
 
         self._update(new_reserve0, new_reserve1)
+
+        return out
     
     def swap_reserve1(self, amountIn: float):
         assert amountIn <= self.reserve0
         beta = amountIn / self.reserve1
 
-        new_reserve0 = self.reserve0 - self.reserve0 * (beta / (1 + beta))
+        out = self.reserve0 * (beta / (1 + beta))
+        new_reserve0 = self.reserve0 - out
         new_reserve1 = self.reserve1 + amountIn
 
         self._update(new_reserve0, new_reserve1)
+
+        return out
 
     def _update(self, new_reserve0, new_reserve1):
         assert 0 < new_reserve0
