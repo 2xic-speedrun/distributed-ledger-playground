@@ -6,7 +6,7 @@ class UniswapPair:
         self.reserve1 = reserve1
         self.k = reserve0 * reserve1
         self.accumulator = 0
-        self.blockTime = blockTime        
+        self.blockTime = blockTime    
 
     @property
     def price_0(self):

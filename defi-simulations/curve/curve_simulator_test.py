@@ -1,8 +1,5 @@
 import unittest
-from unittest import result
-from curve.simulator import CurveSimulator
-
-from uniswap.simulator import UniswapPair
+from .simulator import CurveSimulator
 import numpy as np
 
 

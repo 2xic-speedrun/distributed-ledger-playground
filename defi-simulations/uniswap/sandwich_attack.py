@@ -15,3 +15,4 @@ class SandwichAttack:
 
     def _front_run_asset1(self, amount):
         self.uniswap.swap_reserve0(amount)
+
