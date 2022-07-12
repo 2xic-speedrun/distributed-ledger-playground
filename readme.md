@@ -27,11 +27,20 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 - [Aave GHO stablecoin](https://governance.aave.com/t/introducing-gho/8730)
 - [Rai](https://raw.githubusercontent.com/reflexer-labs/whitepapers/master/English/rai-english.pdf)
 - [DAI](https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf)
+  - [https://makerdao.com/whitepaper/Dai-Whitepaper-Dec17-en.pdf](https://makerdao.com/whitepaper/Dai-Whitepaper-Dec17-en.pdf)
 - [FRAX](https://docs.frax.finance/overview)
 
 ### Options
 - [https://www.opyn.co/](https://www.opyn.co/)
 - [https://perp.com/](https://perp.com/)
+
+### Derivatives
+- [https://www.apwine.fi/](https://www.apwine.fi/)
+- 
+
+## Unknown category
+- [https://tempus.finance/](https://tempus.finance/)
+- 
 
 ### MEV
 - we will also investigate how MEV can affect some of theses dapps. https://www.mev.wiki/
