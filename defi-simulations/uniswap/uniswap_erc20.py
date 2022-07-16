@@ -26,8 +26,9 @@ class UniswapErc20(UniswapPair):
             self.address,
             caller,
         )
+        # this should technical check that the amount swap keeps the invariant.
+        # I'm pretty sure I saw that in the uniswap source code
         return amount_out
-
 
     def swap_reserve1(self, caller, amountIn: float):
         amount_sent = self.token2.transfer(
