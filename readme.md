@@ -22,6 +22,7 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 - [Curve](https://curve.fi/files/crypto-pools-paper.pdf)
 - [Uniswap v2 / v3](https://uniswap.org/whitepaper.pdf)
 - [SNX Atomic Exchange](https://sips.synthetix.io/sips/sip-120/)
+- [synapseprotocol](https://synapseprotocol.com/?inputCurrency=USDC&outputCurrency=USDC&outputChain=10)
 
 ### Stablecoins
 - [Aave GHO stablecoin](https://governance.aave.com/t/introducing-gho/8730)

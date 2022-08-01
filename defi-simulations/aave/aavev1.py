@@ -11,4 +11,3 @@ class AaveV1:
 
     def redeem(self):
         pass
-
