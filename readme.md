@@ -40,12 +40,15 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 - [https://www.apwine.fi/](https://www.apwine.fi/)
 - 
 
-## Unknown category
+## Stable apy
 - [https://tempus.finance/](https://tempus.finance/)
 - 
 
 ### MEV
 - we will also investigate how MEV can affect some of theses dapps. https://www.mev.wiki/
+
+[Clockwork Finance: Automated Analysis of Economic Security in
+Smart Contracts](https://eprint.iacr.org/2021/1147.pdf?utm_source=pocket_mylist)
 
 ---
 There are also ideas closely connected to DeFi worth creating simulators for. For instance seigniorage shares is something used by successfully for some stablecoins, and less so for others.
