@@ -42,7 +42,11 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 
 ## Stable apy
 - [https://tempus.finance/](https://tempus.finance/)
-- 
+  
+## Miscellaneous
+- Gas token
+- Cow swap
+- https://www.morpho.xyz/
 
 ### MEV
 - we will also investigate how MEV can affect some of theses dapps. https://www.mev.wiki/
