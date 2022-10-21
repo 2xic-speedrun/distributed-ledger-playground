@@ -1,1 +1,1 @@
-python3 -m pytest defi-simulations
+python3 -m pytest src

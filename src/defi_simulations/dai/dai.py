@@ -1,6 +1,5 @@
-import weakref
-from utils.Wei import Wei
-from utils.ERC20 import ERC20
+from ..utils.Wei import Wei
+from ..utils.ERC20 import ERC20
 from .cdp import cdp
 
 """

@@ -1,5 +1,5 @@
-from uniswap.uniswap_erc20 import UNISWAP_ADDRESS
-from utils.ERC20 import ERC20
+from ...uniswap.uniswap_erc20 import UNISWAP_ADDRESS
+from ...utils.ERC20 import ERC20
 
 class Salmonella(ERC20):
     def __init__(self, name="Salmonella") -> None:

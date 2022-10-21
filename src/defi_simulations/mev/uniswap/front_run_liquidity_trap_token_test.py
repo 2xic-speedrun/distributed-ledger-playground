@@ -1,9 +1,9 @@
 import unittest
 
 from .sandwich_attack import SandwichAttack
-from uniswap.uniswap_erc20 import UNISWAP_ADDRESS
-from utils.ERC20 import ERC20
-from .uniswap_erc20 import UniswapErc20
+from ...uniswap.uniswap_erc20 import UNISWAP_ADDRESS
+from ...utils.ERC20 import ERC20
+from ...uniswap.uniswap_erc20 import UniswapErc20
 from .front_run_liquidity_trap_token import TrapToken
 
 

@@ -1,4 +1,4 @@
-from utils.price_feed import PriceFeed
+from ..utils.price_feed import PriceFeed
 
 class cdp:
     def __init__(self, collateral_type, amount) -> None:

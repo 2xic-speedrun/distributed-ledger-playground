@@ -1,11 +1,7 @@
 import unittest
-
 from .dai import DAI
-from utils.Wei import Wei
-from utils.ERC20 import ERC20
-from utils.price_feed import PriceFeed
-import numpy as np
-
+from ..utils.Wei import Wei
+from ..utils.price_feed import PriceFeed
 
 class TestDai(unittest.TestCase):
     def test_creation_example_1(self):

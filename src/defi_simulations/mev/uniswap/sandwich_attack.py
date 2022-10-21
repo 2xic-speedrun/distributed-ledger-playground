@@ -1,4 +1,4 @@
-from .simulator import UniswapPair
+from ...uniswap.simulator import UniswapPair
 
 class SandwichAttack:
     def __init__(self) -> None:

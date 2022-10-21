@@ -1,6 +1,6 @@
 import unittest
-from .uniswap_erc20 import UNISWAP_ADDRESS, UniswapErc20
-from utils.ERC20 import ERC20
+from ...uniswap.uniswap_erc20 import UNISWAP_ADDRESS, UniswapErc20
+from ...utils.ERC20 import ERC20
 from .salmonella import Salmonella
 
 class TestSalmonella(unittest.TestCase):

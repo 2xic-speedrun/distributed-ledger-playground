@@ -1,6 +1,6 @@
 # DeFi simulator
 
-The plan is to create simulators fro various DeFi environment. The core will be written in rust, but have python interface. This should allow various scientific use cases.
+The plan is to create simulators for various DeFi environment. The core will be written in rust, but have python interface. This should allow various scientific use cases.
 
 It's also is a nice way for me to get a good idea how theses protocols actually work. 
 ```
@@ -47,6 +47,7 @@ We want to have a simulator for most of DeFi, but some of the project that we wa
 - Gas token
 - Cow swap
 - https://www.morpho.xyz/
+- [Scalable reward distribution on the ETH blockchain](https://uploads-ssl.webflow.com/5ad71ffeb79acc67c8bcdaba/5ad8d1193a40977462982470_scalable-reward-distribution-paper.pdf)
 
 ### MEV
 - we will also investigate how MEV can affect some of theses dapps. https://www.mev.wiki/
