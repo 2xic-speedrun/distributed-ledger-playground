@@ -1,4 +1,4 @@
-## Curve
+## Whitepaper Curve
 
 - Move efficient invariant than x*y=k
     - liquidity is concentrated based on the "internal oracle" price.

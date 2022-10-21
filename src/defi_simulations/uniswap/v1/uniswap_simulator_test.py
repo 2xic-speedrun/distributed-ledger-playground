@@ -1,6 +1,6 @@
 import unittest
 
-from .simulator import UniswapPair
+from .uniswap_simulator import UniswapPair
 import numpy as np
 
 

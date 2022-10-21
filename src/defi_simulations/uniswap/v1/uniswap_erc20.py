@@ -1,4 +1,4 @@
-from .simulator import UniswapPair
+from .uniswap_simulator import UniswapPair
 from ..utils.ERC20 import ERC20
 
 UNISWAP_ADDRESS = 0x42222222222222222

@@ -1,5 +1,5 @@
 import unittest
-from .simulator import CurveSimulator
+from .curve_simulator import CurveSimulator
 import numpy as np
 
 
