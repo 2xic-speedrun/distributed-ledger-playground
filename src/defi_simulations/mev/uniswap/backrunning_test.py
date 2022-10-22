@@ -1,5 +1,5 @@
 import unittest
-from ...uniswap.uniswap_simulator import UniswapPair
+from ...uniswap.v1.uniswap_simulator import UniswapPair
 
 class BackrunningAttack(unittest.TestCase):
     """

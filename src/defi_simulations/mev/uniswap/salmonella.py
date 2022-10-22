@@ -1,4 +1,4 @@
-from ...uniswap.uniswap_erc20 import UNISWAP_ADDRESS
+from ...uniswap.v1.uniswap_erc20 import UNISWAP_ADDRESS
 from ...utils.ERC20 import ERC20
 
 class Salmonella(ERC20):

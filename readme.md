@@ -1,62 +1,32 @@
-# DeFi simulator
+# Distributed ledger paper zoo
 
-The plan is to create simulators for various DeFi environment. The core will be written in rust, but have python interface. This should allow various scientific use cases.
+Implementation of various protocols, and algorithms running on various blockchains.
 
-It's also is a nice way for me to get a good idea how theses protocols actually work. 
-```
-What I cannot build. I do not understand.
 
-― Richard Feynman
-```
-
-----
-
-We want to have a simulator for most of DeFi, but some of the project that we want to have simulator for to start with
-
-## Lending
-
-- [Aave](https://raw.githubusercontent.com/aave/aave-protocol/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf).
-- [Compound](https://compound.finance/documents/Compound.Whitepaper.pdf)
-
-## AMM
-- [Curve](https://curve.fi/files/crypto-pools-paper.pdf)
-- [Uniswap v2 / v3](https://uniswap.org/whitepaper.pdf)
-- [SNX Atomic Exchange](https://sips.synthetix.io/sips/sip-120/)
-- [synapseprotocol](https://synapseprotocol.com/?inputCurrency=USDC&outputCurrency=USDC&outputChain=10)
-- [crocswap](https://www.crocswap.com/)
-
-### Stablecoins
-- [Aave GHO stablecoin](https://governance.aave.com/t/introducing-gho/8730)
-- [Rai](https://raw.githubusercontent.com/reflexer-labs/whitepapers/master/English/rai-english.pdf)
-- [DAI](https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf)
-  - [https://makerdao.com/whitepaper/Dai-Whitepaper-Dec17-en.pdf](https://makerdao.com/whitepaper/Dai-Whitepaper-Dec17-en.pdf)
-- [FRAX](https://docs.frax.finance/overview)
-
-### Options
-- [https://www.opyn.co/](https://www.opyn.co/)
-- [https://perp.com/](https://perp.com/)
-
-### Derivatives
-- [https://www.apwine.fi/](https://www.apwine.fi/)
-- 
-
-## Stable apy
-- [https://tempus.finance/](https://tempus.finance/)
-  
-## Miscellaneous
-- Gas token
-- Cow swap
-- https://www.morpho.xyz/
-- [Scalable reward distribution on the ETH blockchain](https://uploads-ssl.webflow.com/5ad71ffeb79acc67c8bcdaba/5ad8d1193a40977462982470_scalable-reward-distribution-paper.pdf)
-
-### MEV
-- we will also investigate how MEV can affect some of theses dapps. https://www.mev.wiki/
-
-[Clockwork Finance: Automated Analysis of Economic Security in
-Smart Contracts](https://eprint.iacr.org/2021/1147.pdf?utm_source=pocket_mylist)
-
----
-There are also ideas closely connected to DeFi worth creating simulators for. For instance seigniorage shares is something used by successfully for some stablecoins, and less so for others.
-
-[Seigniorage Shares](https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf)
-
+| **Paper / Reference**                                                                                                                                               | **Has notes** | **Comment**                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------- |
+| **Consensus algorithms**                                                                                                                                            |               |                                                         |
+| **_ETH POS_**                                                                                                                                                       |               |                                                         |
+| [Proof of Stake Made Simple with Casper](https://www.scs.stanford.edu/17au-cs244b/labs/projects/moindrot_bournhonesque.pdf)                                         |               | Todo                                                    |
+| [Casper the Friendly Finality Gadget](https://arxiv.org/pdf/1710.09437.pdf)                                                                                         |               | Todo                                                    |
+| **_OTHER_**                                                                                                                                                         |               |                                                         |
+| [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)                                                                           |               | Todo                                                    |
+| **DEFI**                                                                                                                                                            |               |                                                         |
+| **_AMM_**                                                                                                                                                           |               |                                                         |
+| [ Uniswap v1/v2](https://uniswap.org/whitepaper.pdf)                                                                                                                |               | Implemented, but should be clearly split into v1 and v2 |
+| [ Uniswap v3](https://uniswap.org/whitepaper-v3.pdf)                                                                                                                |               | Partially implemented                                   |
+| [ Curve Finance](https://curve.fi/files/crypto-pools-paper.pdf)                                                                                                     | Yes           | Implemented                                             |
+| **_Stablecoins_**                                                                                                                                                   |               |                                                         |
+| [ Rai](https://raw.githubusercontent.com/reflexer-labs/whitepapers/master/English/rai-english.pdf)                                                                  |               | Started on, but put on hold.                            |
+| [ Dai](https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf) |               |                                                         |
+| [Frax](https://docs.frax.finance/overview)                                                                                                                          |               | Not started on                                          |
+| **Lending**                                                                                                                                                         |               |                                                         |
+| [Aave](https://raw.githubusercontent.com/aave/aave-protocol/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf)                                                          |               | Started on, but put on hold.                            |
+| **_MEV_**                                                                                                                                                           |               |                                                         |
+| [ Front running](https://www.mev.wiki/attack-examples/front-running)                                                                                                | No            | Implemented                                             |
+| [ Back running](https://www.mev.wiki/attack-examples/back-running)                                                                                                  | No            | Implemented                                             |
+| [ Salmonella](https://www.mev.wiki/attempts-to-trick-the-bots/salmonella)                                                                                           | No            | Implemented                                             |
+| [ Sandwich](https://www.mev.wiki/attack-examples/sandwich-attack)                                                                                                   | No            | Implemented                                             |
+| **_Miscellaneous_**                                                                                                                                                 |               |                                                         |
+| [Seigniorage Shares](https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf)                              | Yes           | Implemented, but not e2e                                |
+| Gas tokens                                                                                                                                                          |               |                                                         |

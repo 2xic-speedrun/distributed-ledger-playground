@@ -14,6 +14,7 @@ Formula is in `elastic_coin_supply.py`
 
 ### How not to rebase the money supply
 - You should not just rebase the wallet balance by q_i/q_{i - 1}
+  - Side note: This is also basically the way Terra worked [Terra money](https://assets.website-files.com/611153e7af981472d8da199c/618b02d13e938ae1f8ad1e45_Terra_White_paper.pdf) (Which failed btw) 
 
 ### Better way (Seigniorage Shares)
 Two types on money: coin and shares.
