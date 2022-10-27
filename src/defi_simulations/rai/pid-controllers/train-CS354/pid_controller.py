@@ -1,10 +1,7 @@
 from train import Train
+from parameters import k_p, k_d, k_i
 
 def pid_control(train: Train):
-    k_p = 5
-    k_d = 2
-    k_i = 1.5
-
     e = train.goal_distance - train.current_distance
 
     if train.state['e_error'] is None:

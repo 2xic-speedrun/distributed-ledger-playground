@@ -6,22 +6,20 @@ from train import Train
 import random
 
 def test_method(method):
-    print(method)
-    test_train_open_loop = Train(
+    train = Train(
         0,
         100
     )
-    for i in range(100):
-        print(test_train_open_loop.current_distance)
-        if test_train_open_loop.method(method):
+    for _ in range(1000):
+        #print(train.current_distance)
+        if train.method(method):
             break
-    print(test_train_open_loop.current_distance)
+    return train
 
 
 if __name__ == "__main__":
-    if False:
-        test_method(open_control)
-        test_method(p_control)
-        test_method(pd_control)
-    test_method(pid_control)
+    print(open_control, test_method(open_control).current_distance)
+    print(p_control, test_method(p_control).current_distance)
+    print(pd_control, test_method(pd_control).current_distance)
+    print(pid_control, test_method(pid_control).current_distance)
 

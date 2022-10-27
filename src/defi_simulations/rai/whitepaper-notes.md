@@ -57,7 +57,7 @@ Notes from me reading the whitepaper. Note that the notes are only related to ho
    - Rational: Debt will become more expensive, and the SAFEs will go down, SAFE creators will pay back debt. Users start to hoard indexes with the expectation that they will increase in value.
 
 ## Feedback mechanism algorithm
-- When the index is launched it's set to an arbitary redemption price 'rand'
+- When the index is launched it's set to an arbitrary redemption price 'rand'
 - when the market price rises from 'rand' to 'rand' + x
   - The feedback mechanism reads the new market price, it calculates the P term that is (-1 * ((rand + x) / rand))
     - Negative in order to decrease the redemption price and in turn reprice the indexes so that they become cheaper.

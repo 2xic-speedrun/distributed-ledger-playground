@@ -11,19 +11,23 @@ class Train:
         self.dt = 1
 
         self.state =  State()
-
+        self.results_speed_over_time = []
+        self.results_distance_over_time = []
 
     def method(self, new_speed):
         if self.current_distance <= self.goal_distance:
             # add some real friction !!!
-            friction = random.randint(3, 100) / 100
+            friction = 0.8
             new_speed = new_speed(self) * friction
+            new_speed = max(new_speed, 5)
 
+            # and make the acceleration not constant!
             old_speed = self.speed
-            for _ in range(100):
-                distance_moved = 1/2 * (new_speed * friction + old_speed ) * (1/100)
-                self.current_distance += distance_moved
-            self.speed = old_speed
+            self.current_distance += 1/2 * (new_speed * friction + old_speed )
+            self.speed = new_speed
+            self.results_speed_over_time.append(self.speed)
+            self.results_distance_over_time.append(self.current_distance)
+
             return False
         return True
 
