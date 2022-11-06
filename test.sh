@@ -1,1 +1,1 @@
-python3 -m pytest src
+python3 -m pytest defi
