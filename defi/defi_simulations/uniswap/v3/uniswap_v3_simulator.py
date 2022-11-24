@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-from src.defi_simulations.uniswap.v3.uniswap_helper import UniswapHelper
+from .uniswap_helper import UniswapHelper
 from .utils import q96, QValue
 
 
