@@ -31,15 +31,12 @@ Uses virtual balances like uniswap v3
 
 -----
 LLAMMA vs Stablecoin
-. Stablecoin si a CDP
-
+- Stablecoin is a CDP
+- If ETH goes down relatively slowly then the ETH is converted into enoughs stablecoin to cover the closing of the CDP
+  - Which can be done by the user or an external users
 ----
 Automatic stabilizer and monetary policy
-- 
-
-
-
-
-
-
-
+- If P_s > 1 because there is a high demand of the stablecoin
+  - Peg-keeping reserve will formed by asymmetrical deposits into stableswap
+- If P_s < 1 the PegKeeper is allowed to burn the stablecoin
+  - 
