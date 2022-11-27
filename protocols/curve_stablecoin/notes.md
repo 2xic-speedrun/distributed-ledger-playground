@@ -39,4 +39,11 @@ Automatic stabilizer and monetary policy
 - If P_s > 1 because there is a high demand of the stablecoin
   - Peg-keeping reserve will formed by asymmetrical deposits into stableswap
 - If P_s < 1 the PegKeeper is allowed to burn the stablecoin
+
+
+----
+
+Good threads
+- https://twitter.com/0xfoobar/status/1595085743461961730?s=12&t=ArB0iR6cuBGY8SJjjJbTHA&utm_source=pocket_saves
+- https://twitter.com/0x94305/status/1595292889298321408?s=12&t=qAtm2xLye3WiO4yroKZ6iQ&utm_source=pocket_saves
   - 
