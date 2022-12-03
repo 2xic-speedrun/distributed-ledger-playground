@@ -57,9 +57,20 @@ contracts/Mips-memory
     - PreImage
       - https://medium.com/ethereum-optimism/cannon-cannon-cannon-introducing-cannon-4ce0d9245a03
       - preimage oracle
+        - "Oracle" is a loose term here, but okay
       - https://twitter.com/ben_chain/status/1488275963360120832
       - https://github.com/ethereum-optimism/cannon/wiki/Cannon-Overview#minigeth-gnarly-details
-    - 
+      - RPC calls could also be used to get value from GETH (not how it's done in minigeth)
+        - PrefetchAccount
+        - PrefetchStorage
+        - PrefetchCode
+        - PrefetchBlock
+      - Oh wait, I think I now see why this is so cool
+        - Since both hashes in l1, and l2 is relevant
+        - You need a way to provide not only the l1 hash, but also the l2
+        - block -> hash(block) -> block.hash
+          ^------- oracle preimage <---- v
+
 ---
 geth -> Compiles to mips and executed
 ---

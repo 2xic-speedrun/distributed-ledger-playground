@@ -1,8 +1,8 @@
-TODO
-Read paper first - I think https://whitepaper.morpho.xyz/
+TODO read paper first (NOT STARTED ON) - I think https://whitepaper.morpho.xyz/
 
+
+------
 Read code in https://github.com/morpho-dao/morpho-core-v1
-
 
 - Interfaces
   - aave
@@ -18,4 +18,3 @@ Read code in https://github.com/morpho-dao/morpho-core-v1
     - IMorpho
       - Referral code ??
     - 
-  
