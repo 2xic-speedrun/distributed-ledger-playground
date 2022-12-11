@@ -1,0 +1,28 @@
+`root/rlp/`
+    - `internal/rlpstruct/rlpstruct.go`
+        - Logic for handling nil types
+        - In addition to logic for processing fields
+        - Field is a name definition of the rlp value
+    - `rlpgen/`
+    - `gen.go` 
+        - almost 750 loc in a single file...
+    - `types.go`
+        - Get the representation type
+    - `decode.go`
+      - Logic for decoing RLP
+      - `makeDecoder`
+          - Mapper of the reflect types to internal types
+      - Over 1000 loc in a single file.
+    - `decode_test.go`
+      - Well tested
+    - `encbuffer.go`
+      - Helper class 
+    - `encode.go`
+      - `makeWriter`
+        - Mapper for reflect and internal types
+          - Similar to `makeDecoder`
+    - `encoder_test.go` 
+      - Well tested
+    - `raw.go`
+      - Raw types
+
