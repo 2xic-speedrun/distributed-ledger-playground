@@ -1,32 +1,5 @@
-# Distributed ledger paper zoo
+# Distributed ledger playground
 
-Implementation of various protocols, and algorithms running on various blockchains.
+Has implemented various DeFi protocols in Python like [Uniswap](defi/defi_simulations/uniswap/), and some concepts like [Mev](defi/defi_simulations/mev/).
 
-
-| **Paper / Reference**                                                                                                                                               | **Has notes** | **Comment**                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------- |
-| **Consensus algorithms**                                                                                                                                            |               |                                                         |
-| **_ETH POS_**                                                                                                                                                       |               |                                                         |
-| [Proof of Stake Made Simple with Casper](https://www.scs.stanford.edu/17au-cs244b/labs/projects/moindrot_bournhonesque.pdf)                                         | Yes           | Read                                                    |
-| [Casper the Friendly Finality Gadget](https://arxiv.org/pdf/1710.09437.pdf)                                                                                         |               | Todo                                                    |
-| **_OTHER_**                                                                                                                                                         |               |                                                         |
-| [Tendermint: Consensus without Mining](https://tendermint.com/static/docs/tendermint.pdf)                                                                           |               | Todo                                                    |
-| **DEFI**                                                                                                                                                            |               |                                                         |
-| **_AMM_**                                                                                                                                                           |               |                                                         |
-| [ Uniswap v1/v2](https://uniswap.org/whitepaper.pdf)                                                                                                                |      No         | Implemented, but should be clearly split into v1 and v2 |
-| [ Uniswap v3](https://uniswap.org/whitepaper-v3.pdf)                                                                                                                |        Partial       | Partially implemented                                   |
-| [ Curve Finance](https://curve.fi/files/crypto-pools-paper.pdf)                                                                                                     | Yes           | Implemented                                             |
-| **_Stablecoins_**                                                                                                                                                   |               |                                                         |
-| [ Rai](https://raw.githubusercontent.com/reflexer-labs/whitepapers/master/English/rai-english.pdf)                                                                  | Yes           | Has general example code for PID controllers. Rai pid logic has been looked at on, but put on hold.                         |
-| [ Dai](https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf) | No            |                                                         |
-| [Frax](https://docs.frax.finance/overview)                                                                                                                          | No            | Not started on                                          |
-| **Lending**                                                                                                                                                         |               |                                                         |
-| [Aave](https://raw.githubusercontent.com/aave/aave-protocol/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf)                                                          |   No            | Started on, but put on hold.                            |
-| **_MEV_**                                                                                                                                                           |               |                                                         |
-| [ Front running](https://www.mev.wiki/attack-examples/front-running)                                                                                                | No            | Implemented                                             |
-| [ Back running](https://www.mev.wiki/attack-examples/back-running)                                                                                                  | No            | Implemented                                             |
-| [ Salmonella](https://www.mev.wiki/attempts-to-trick-the-bots/salmonella)                                                                                           | No            | Implemented                                             |
-| [ Sandwich](https://www.mev.wiki/attack-examples/sandwich-attack)                                                                                                   | No            | Implemented                                             |
-| **_Miscellaneous_**                                                                                                                                                 |               |                                                         |
-| [Seigniorage Shares](https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf)                              | Yes           | Implemented, but not e2e                                |
-| Gas tokens                                                                                                                                                          |               |                                                         |
+Most other things here is WIP, or partially implemented. This is a playground after all.
